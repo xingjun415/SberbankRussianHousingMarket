@@ -6,17 +6,17 @@
 
 ### train.csv和test.csv中数据项含义
 price_doc: sale price (this is the target variable)，出售价格  
-id: transaction id  
-timestamp: date of transaction  
-full_sq: total area in square meters, including loggias, balconies and other non-residential areas  
-life_sq: living area in square meters, excluding loggias, balconies and other non-residential areas  
-floor: for apartments, floor of the building  
-max_floor: number of floors in the building  
-material: wall material  
-build_year: year built  
-num_room: number of living rooms  
-kitch_sq: kitchen area  
-state: apartment condition  
+id: transaction id,交易ID  
+timestamp: date of transaction, 交易日期  
+full_sq: total area in square meters, including loggias, balconies and other non-residential areas,总面积（平方米），包含走廊、阳台和其他公摊面积    
+life_sq: living area in square meters, excluding loggias, balconies and other non-residential areas, 使用面积，不包含走廊、阳台和其他公摊面积   
+floor: for apartments, floor of the building,公寓所在楼层    
+max_floor: number of floors in the building,总楼层    
+material: wall material,墙体材料    
+build_year: year built，修建年份    
+num_room: number of living rooms,客厅数目   
+kitch_sq: kitchen area,厨房面积   
+state: apartment condition,公寓条件    
 product_type: owner-occupier purchase or investment  
 sub_area: name of the district  
 
